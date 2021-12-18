@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class StaticArea {
 
-    private static final List<Integer> MISTATE_LIST;
+    private static final List<Integer> MISTAKE_LIST;
     private static final List<Integer> OLD_LIST;
     private static final List<Integer> NEW_LIST;
 
@@ -21,7 +21,7 @@ public class StaticArea {
 
         if (VersionChecker.isTest())
             list.add(4);
-        MISTATE_LIST = list;
+        MISTAKE_LIST = list;
 
         //변경된 코드
         List<Integer> oldList = new ArrayList<>();
@@ -60,3 +60,4 @@ public class StaticArea {
         }
     }
 }
+
