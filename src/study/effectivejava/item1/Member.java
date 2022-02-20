@@ -1,7 +1,8 @@
 package study.effectivejava.item1;
 
 /**
- * Static Factory Method Example
+ * Static Factory Method Example 1
+ * One Advantage : Can have a name.
  */
 public class Member {
     private String name;
